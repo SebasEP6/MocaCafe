@@ -16,10 +16,10 @@
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="{{ route('menu') }}" class="fixed-menu-item">
+      <!-- <li><a href="{{ route('menu') }}" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Contacto
@@ -37,10 +37,10 @@
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="{{ route('menu') }}" class="fixed-menu-item">
+      <!-- <li><a href="{{ route('menu') }}" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Contacto
@@ -58,10 +58,10 @@
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="{{ route('menu') }}" class="fixed-menu-item">
+      <!-- <li><a href="{{ route('menu') }}" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="fixed-menu-item active">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Contacto
@@ -79,10 +79,10 @@
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="{{ route('menu') }}" class="fixed-menu-item">
+      <!-- <li><a href="{{ route('menu') }}" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="fixed-menu-item">
         <div class="txt-bg"><img src="/img/bg-one.png" class="bg-animation-txt"></div>
         Contacto

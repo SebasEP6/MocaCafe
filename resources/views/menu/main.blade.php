@@ -13,10 +13,10 @@
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="/menu" class="nav-item">
+      <!-- <li><a href="/menu" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Contacto
@@ -34,10 +34,10 @@
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="/menu" class="nav-item">
+      <!-- <li><a href="/menu" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Contacto
@@ -55,10 +55,10 @@
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="/menu" class="nav-item">
+      <!-- <li><a href="/menu" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="nav-item active">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Contacto
@@ -76,10 +76,10 @@
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Galer&iacute;a
       </a></li>
-      <li><a href="/menu" class="nav-item">
+      <!-- <li><a href="/menu" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Men&uacute;
-      </a></li>
+      </a></li> -->
       <li><a href="/contacto" class="nav-item">
         <div class="txt-bg"><img src="/img/bg-two.png" class="bg-animation-txt"></div>
         Contacto

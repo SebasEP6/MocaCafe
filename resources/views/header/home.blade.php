@@ -8,12 +8,12 @@
           <div class="txt-bg"><img src="/img/bg-three.png" class="bg-animation-txt"></div>
           Galer&iacute;a
         </a>
-        <a href="/menu" class="menu-opt">
+        <!-- <a href="/menu" class="menu-opt">
           <div class="txt-bg"><img src="/img/bg-three.png" class="bg-animation-txt"></div>
           Men&uacute;
         </a>
       </div>
-      <!-- <a href="/menu/categoria" class="discover-btn">Descubre...</a> -->
+      <a href="/menu/categoria" class="discover-btn">Descubre...</a> -->
     </div>
   </div>
   <div class="s-element">
