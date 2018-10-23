@@ -1,0 +1,171 @@
+@import "vars";
+@import "components/placeholders";
+@import "components/mixins";
+@import "components/menu";
+@import "components/content";
+@import "components/footer";
+@import "pages/menu";
+@import "pages/category";
+@import "components/icons";
+@import "pages/about";
+@import "pages/header";
+@import "components/screens";
+@import "components/galery";
+@import "components/modal";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  @extend html;
+  font-family: $primary-font;
+  position: relative;
+  background: url('../img/texture.png');
+  overflow-x: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.section {
+  margin: 10px 0;
+  padding: 40px 0;
+  position: relative;
+  width: 100%;
+
+  .section-title {
+    display: block;
+    text-align: center;
+
+    h2 {
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        position: absolute;
+        left: -130px;
+        content: "";
+        border-top: solid 2px #000;
+        top: 30px;
+        width: 85px;
+      }
+
+      &::after {
+        position: absolute;
+        right: -130px;
+        content: "";
+        border-top: solid 2px #000;
+        top: 30px;
+        width: 85px;
+      }
+    }
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: (56px / $i) + (15px - $i);
+  }
+}
+
+a {
+  color: $color4;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 400ms ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+form {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: calc(100% - 20px);
+
+  label {
+    display: block;
+  }
+
+  input {
+    display: block;
+    height: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  textarea {
+    @extend input;
+    height: 80px;
+    font-family: $secondary-font;
+  }
+}
+
+.btn {
+  padding: 10px 25px;
+  margin: 10px 10px 10px 70%;
+  cursor: pointer;
+}
+
+p {
+  font-family: $secondary-font;
+  text-align: justify;
+  font-size: 1em;
+}
+
+ul {
+  display: block;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.facebook {
+  background: $fb;
+}
+
+.twitter {
+  background: $tw;
+}
+
+.instagram {
+  background: $ig;
+}
+
+.google-plus {
+  background: $gp;
+}
+
+.bg-one {
+  background-color: $color1;
+}
+
+.bg-two {
+  background-color: $color2;
+}
+
+.bg-three {
+  background-color: $color3;
+}
+
+.bg-fourth {
+  background-color: $color4;
+}
+
+.bg-five {
+  background-color: $color5;
+}

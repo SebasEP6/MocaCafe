@@ -1,0 +1,61 @@
+#about-moca {
+  height: 70%;
+  width: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 98%;
+  border-radius: 2px;
+  text-align: center;
+
+  img {
+    height: 100%;
+  }
+}
+
+.right-img {
+  height: 120px;
+  width: 80px;
+  overflow: hidden;
+  position: absolute;
+  top: 60%;
+  left: -70px;
+  border-radius: 2px;
+  text-align: left;
+
+  img {
+    height: 100%;
+    margin-left: -10px;
+  }
+}
+
+.left-img {
+  height: 120px;
+  width: 80px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  right: -70px;
+  border-radius: 2px;
+  text-align: left;
+
+  img {
+    height: 100%;
+    margin-left: -10px;
+  }
+}
+
+.transition-box {
+  line-height: 250px;
+  width: 100%;
+  text-align: center;
+  color: $color4;
+  text-shadow: 0.1px .1px 1px $black;
+  height: 250px;
+  background: url("/img/production.jpg") {
+    size: cover;
+    repeat: no-repeat;
+    attachment: fixed;
+  }
+  margin-bottom: 50px;
+}

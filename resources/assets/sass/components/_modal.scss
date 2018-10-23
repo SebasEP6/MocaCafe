@@ -1,0 +1,36 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(black, .4);
+	display: none;
+	z-index: 10000;
+
+	.modal-img {
+		position: absolute;
+    	left: 50%;
+    	top: 50%;
+    	transform: translate(-50%, -50%);
+    	-webkit-transform: translate(-50%, -50%);
+		width: 80%;
+
+		img {
+			max-width: 100%;
+		}
+
+		&:after {
+			content: attr('title');
+			position: absolute;
+			left: 0;
+			bottom: 10px;
+			font-size: 28px;
+			width: 100%;
+			text-align: center;
+			background: rgba(black, .5);
+			color: white;
+			z-index: 100;
+		}
+	}
+}

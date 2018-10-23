@@ -1,0 +1,279 @@
+@media (max-width: 1100px) {
+  header, nav {
+
+    span {
+      display: none;
+    }
+
+    .main-menu {
+      text-align: right;
+
+      li {
+        text-align: center;
+      }
+
+      .nav-item {
+        border-right: none;
+        border-left: dashed 1px $color4;
+      }
+
+      .nav-logo {
+        position: absolute;
+        bottom: 110%;
+        left: 10px;
+        height: 150px;
+        background: url("/img/texture.png");
+        border-radius: 50%;
+        width: 150px;
+        text-align: center;
+      }
+    }
+
+    .pic {
+      .bg-shadow {
+        .discover-btn {
+          right: 10%;
+        }
+      }
+    }
+  }
+
+  .fixed-menu {
+    text-align: right;
+
+    li {
+      text-align: center;
+    }
+
+    .fixed-menu-item {
+      border-right: none;
+      border-left: dashed 1px $color4;
+    }
+
+    .fixed-menu-logo {
+      position: absolute;
+      top: 1px;
+      right: 92%;
+      height: 48px;
+    }
+  }
+
+
+  .box {
+    margin: 50px 10px;
+    max-width: 100%;
+    text-align: left;
+
+    &-right {
+      margin: 50px 5px 50px 30%;
+    }
+
+    &-event {
+      width: calc(50% - 40px);
+
+      &:last-child {
+        width: calc(100% - 40px);
+      }
+    }
+  }
+
+  footer {
+
+    div {
+      height: auto;
+
+      div {
+        float: none;
+        width: calc(50% - 60px);
+
+        &:first-child {
+          display: none;
+        }
+
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .selection {
+    .category {
+      margin: 10px 5px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+    header {
+      #s-header {
+        display: none;
+      }
+
+      .pic {
+        display: block;
+      }
+
+      .main-menu {
+        .nav-item {
+          padding: 0 30px;
+        }
+
+        .nav-logo {
+          position: absolute;
+          top: -80px;
+          left: 10px;
+          height: 75px;
+          background: url("/img/texture.png");
+          border-radius: 50%;
+          width: 75px;
+          text-align: center;
+        }
+      }
+    }
+
+    .fixed-menu {
+      .fixed-menu-item {
+        padding: 0 30px;
+      }
+    }
+
+    .box {
+      &.full-box {
+        width: 60%;
+        margin: 30px 0 30px 5%;
+      }
+    }
+
+    .icons {
+      display: none;
+    }
+}
+
+@media (max-width: 680px) {
+      header {
+        .main-menu {
+          display: none;
+        }
+
+        .social-menu {
+          position: absolute;
+          bottom: 20px;
+          width: 100%;
+        }
+      }
+
+      .fixed-menu {
+        text-align: right;
+        height: 50px;
+        overflow: hidden;
+        display: block;
+
+        ul {
+          display: block;
+        }
+
+        li {
+          display: block;
+          width: 100%;
+        }
+
+        .fixed-menu-item {
+          border: none;
+          display: block;
+          border-bottom: $color4 dashed 1px;
+        }
+
+        .fixed-menu-logo {
+          right: 85%;
+        }
+
+        #fix-menu-show {
+          display: inline-block;
+          border: none;
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .box {
+        width: 90%;
+        margin: 30px 3%;
+
+        &.box-right {
+          &.animated {
+            margin: 30px 0 30px 20%;
+            width: 70%;
+          }
+        }
+
+        &.full-box {
+          width: 70%;
+          margin: 30px 0 30px 10px;
+
+          #about-moca {
+            height: 25%;
+            width: 80px;
+            top: 80%;
+          }
+        }
+
+        &-contact {
+          margin: 5px;
+        }
+      }
+
+      .img {
+        display: none;
+      }
+
+      .prom {
+        .prom-pic {
+          width: 35%;
+        }
+
+        .prom-attr {
+          width: calc(60% - 80px);
+          left: 37%;
+        }
+      }
+
+      .menu-card {
+        .card-description {
+          p {
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .selection {
+        .category {
+          &-principal, &-secondary {
+            width: 200px;
+            height: 200px;
+
+            a {
+              line-height: 200px;
+              height: 100%;
+            }
+          }
+        }
+      }
+
+      .full-contact {
+        margin: 20px 1%;
+      }
+
+      footer {
+        padding-bottom: 10px;
+
+        div {
+          div {
+            width: calc(100% - 40px);
+            display: block;
+          }
+        }
+      }
+}

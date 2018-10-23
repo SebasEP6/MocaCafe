@@ -1,0 +1,99 @@
+%box {
+  display: inline-block;
+  margin: 25px 80px;
+  padding: 10px;
+  width: 60%;
+  max-width: 800px;
+  position: relative;
+  transition: ease 1000ms all;
+
+  &.full-box {
+    width: 800px;
+    margin: 50px;
+  }
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(#efefef, 0.8);
+    border-radius: 2px;
+
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+  }
+
+  .bg-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba($bg, 0.2);
+    border-radius: 2px;
+
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+  }
+
+  .title {
+    border-bottom: solid 1px $color3;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .body {
+    padding: 10px;
+  }
+}
+
+%category {
+  font: {
+    size: 32px;
+    weight: bold;
+  }
+  position: relative;
+  display: block;
+
+  .bg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    filter: opacity(50%);
+    z-index: -1;
+    transition: all 400ms ease;
+  }
+
+  &:hover {
+    .bg {
+      height: 100%;
+    }
+  }
+}
+
+%txt-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  display: block;
+  overflow: hidden;
+  transition: ease 600ms all;
+  z-index: -1;
+
+  .bg-animation-txt {
+    width: 150px;
+    margin-top: 10px;
+  }
+}

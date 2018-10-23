@@ -1,0 +1,58 @@
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $color1;
+  display: none;
+  height: 50px;
+  width: 100%;
+  z-index: 1000;
+  transition: height 200ms linear;
+
+  li {
+    margin: 0;
+  }
+
+  .fixed-menu-item {
+    border-right: dashed 1px $color4;
+    font: {
+      size: 24px;
+      weight: bold;
+    }
+    line-height: 50px;
+    padding: 0 50px;
+    position: relative;
+
+    .txt-bg {
+      @extend %txt-bg;
+    }
+
+    &:hover {
+      .txt-bg {
+        width: 100%;
+      }
+    }
+  }
+
+  .active {
+    .txt-bg {
+      width: 100%;
+    }
+  }
+
+  #fix-menu-show {
+    @extend .fixed-menu-item;
+    cursor: pointer;
+  }
+
+  .fixed-menu-logo {
+    height: 95%;
+    position: absolute;
+    right: 5%;
+    top: 1px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

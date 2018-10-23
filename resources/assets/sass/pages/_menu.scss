@@ -1,0 +1,49 @@
+.selection {
+  width: 80%;
+  margin: 50px auto 0;
+  text-align: center;
+
+  .category {
+    margin: 0 5px;
+    display: inline-block;
+    overflow: hidden;
+
+    &-principal {
+      width: 320px;
+      height: 320px;
+
+      a {
+        @extend %category;
+        height: 320px;
+        line-height: 320px;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-secondary {
+      width: 250px;
+      height: 250px;
+
+      a {
+        @extend %category;
+        height: 250px;
+        line-height: 250px;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
