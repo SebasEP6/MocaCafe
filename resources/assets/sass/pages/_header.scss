@@ -91,7 +91,7 @@ header {
     height: 100%;
 
     &.home {
-      background: url("../img/element-1.jpg") {
+      background: url("/img/element-1.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;
@@ -100,7 +100,7 @@ header {
     }
 
     &.menu {
-      background: url("../img/menu.jpg") {
+      background: url("/img/menu.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;
@@ -109,7 +109,7 @@ header {
     }
 
     &.events {
-      background: url("../img/events.jpg") {
+      background: url("/img/events.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;
@@ -118,7 +118,7 @@ header {
     }
 
     &.about {
-      background: url("../img/about.jpg") {
+      background: url("/img/about.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;
@@ -127,7 +127,7 @@ header {
     }
 
     &.contact {
-      background: url("../img/contact.jpg") {
+      background: url("/img/contact.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;
@@ -136,7 +136,7 @@ header {
     }
 
     &.galery {
-      background: url("../img/galery.jpg") {
+      background: url("/img/galery.jpg") {
         attachment: fixed;
         size: cover;
         repeat: no-repeat;

@@ -15,27 +15,39 @@
       <div class="body">
         <h4>Nueva Segovia</h4>
         <p>
-          <i class="fa fa-map-marker" aria-hidden="true"></i> Calle 5 entre carreras 1 y 2. Barquisimeto 3001, Lara, Venezuela. <br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 5 entre calles 1 y 2. <br>
           <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2533243 <br>
-          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: 8:00am - 8:00pm <br>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: <ul>
+            <li>Lunes a Viernes (8:00am - 12:00pm y 2:00pm - 7:30pm) </li>
+            <li>Sabados y Domingos (9:00am - 1:00pm y 3:00pm - 7:00pm) </li>
+          </ul> <br>
         </p>
         <h4>Carrera 21</h4>
         <p>
-          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 21 entre calles 9 y 10. Barquisimeto 3001, Lara, Venezuela. <br>
-          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2679708 <br>
-          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: 8:00am - 8:00pm <br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 21 entre calles 9 y 10. <br>
+          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-4358556 <br>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: <ul>
+            <li>Lunes a Viernes (8:00am - 7:00pm) </li>
+            <li>Sabados (9:00am - 7:00pm) </li>
+            <li>Domingos (9:00am - 2:00pm) </li>
+          </ul> <br>
         </p>
         <h4>Torre David</h4>
         <p>
-          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 21 entre calles 9 y 10. Barquisimeto 3001, Lara, Venezuela. <br>
-          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2679708 <br>
-          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: 8:00am - 8:00pm <br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 15 entre calles 26 y 27, Edif. Torre David, Nivel Sotano. <br>
+          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2311656 <br>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: <ul>
+            <li>Lunes a Viernes (7:30am - 4:30pm)</li>
+          </ul> <br>
         </p>
         <h4>Trinitarias</h4>
         <p>
-          <i class="fa fa-map-marker" aria-hidden="true"></i> Carrera 21 entre calles 9 y 10. Barquisimeto 3001, Lara, Venezuela. <br>
-          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2679708 <br>
-          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: 8:00am - 8:00pm <br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Centro comercial Las Trinitarias, dentro del local Ferreteria EPA. <br>
+          <i class="fa fa-phone" aria-hidden="true"></i> +58 251-2551930 <br>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Horario: <ul>
+            <li>Lunes a Sabado (9:00am - 7:00pm)</li>
+            <li>Domingos (10:30am - 6:30pm)</li>
+          </ul> <br>
         </p>
         <h4>Correo</h4>
         <p>

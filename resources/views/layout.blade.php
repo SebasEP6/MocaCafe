@@ -52,7 +52,7 @@
             </a>
         </div>
         <div>
-          <h6>&copy; moca Caf&eacute;</h6>
+          <h5>&copy; moca Caf&eacute;</h5>
           <p>Todos los derechos reservados <br>
           Desarrollado por <a href="http://biglabs.com.ve" id="author">Biglabs</a> </p> <br>
           <a href="https://www.facebook.com/Moca-Caf%C3%A9-485682034786919/"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
